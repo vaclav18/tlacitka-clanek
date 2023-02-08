@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jednoduchá aplikace s uživatelskými účty</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Jednoduchá aplikace s uživatelskými účty</h1>
+
+    <!-- Formulář pro přihlášení -->
+    <form id="login-form">
+        <input type="text" id="username" placeholder="Uživatelské jméno">
+        <input type="password" id="password" placeholder="Heslo">
+        <button type="submit">Přihlásit se</button>
+    </form>
+
+    <!-- Tlačítka -->
+    <button id="button-1">Tlačítko 1</button>
+    <button id="button-2">Tlačítko 2</button>
+    <button id="button-3">Tlačítko 3</button>
+
+    <!-- Tlačítko pro zobrazení logu -->
+    <button id="show-log-button">Zobrazit log</button>
+
+    <!-- Zobrazí se pouze pokud je uživatel přihlášen jako administrátor -->
+    <div id="log" style="display: none;"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
